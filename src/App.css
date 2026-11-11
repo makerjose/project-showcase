@@ -1,0 +1,100 @@
+
+.app {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Project form */
+.project-form {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.project-form label {
+  display: block;
+  margin: 12px 0 6px;
+}
+
+.project-form input,
+.project-form textarea,
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.project-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.project-form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-form button:hover {
+  background: #1d4ed8;
+}
+
+/* Projects list */
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 0 0 10px;
+}
+
+.project-card p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  .app {
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .project-form,
+  .project-card {
+    padding: 15px;
+  }
+
+  .project-form button {
+    width: 100%;
+  }
+}
